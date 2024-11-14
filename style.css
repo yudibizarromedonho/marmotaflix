@@ -1,0 +1,65 @@
+body {
+    color: whitesmoke;
+    background: #4d3227;
+    margin: 0px;
+    font-family: "Bebas Neue", sans-serif;
+    margin-bottom: 100;
+
+}
+
+header {
+    color: #ebc999;
+    border-bottom: solid 2px ghostwhite;
+    padding: 20px;
+    font-size: 32;
+}
+
+.chamada {
+    background: tan;
+    padding-bottom: 80px;
+    padding-top: 80px;
+    display: flex;
+    justify-content: center;
+}
+
+.chamada-texto {
+    margin: 5%;
+}
+
+h1 {
+    font-size: 40;
+}
+
+p {
+    font-size: 20;
+}
+
+img {
+    height: 100px
+}
+
+.categoria-videos {
+    display: flex;
+    overflow-x: auto;
+    gap: 20;
+}
+
+.categoria {
+    padding-left: 20;
+    padding-right: 20;
+    margin-top: 50;
+}
+
+.categoria-videos img {
+    opacity: 0.5;
+    height: 200;
+}
+
+.categoria-videos img:hover {
+    opacity: 1.0;
+    border: 1 solid red
+}
+
+.categoria h2 {
+    color: #ebc999;
+}
